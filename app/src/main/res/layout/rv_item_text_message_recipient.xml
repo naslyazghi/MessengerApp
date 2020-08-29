@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp">
+
+    <FrameLayout
+        android:id="@+id/message_root"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/tv_time_itemTextMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12:12pm"
+            android:layout_gravity="bottom|start"
+            android:layout_marginTop="34dp"
+            android:layout_marginStart="5dp"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/tv_message_itemTextMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hi Ahmad, how are you"
+            android:layout_gravity="top|start"
+            android:padding="7dp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:background="@drawable/background_text_message_recipient"/>
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+
+    <EditText
+        android:id="@+id/et_signin_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Phone Number or Email"/>
+
+    <EditText
+        android:id="@+id/et_signin_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:inputType="textPassword"
+        android:hint="Password" />
+
+    <ProgressBar
+        android:id="@+id/pb_signin"
+        style="?android:attr/progressBarStyle"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_signin_signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/btn_background"
+        android:enabled="false"
+        android:text="Sign In"
+        android:textColor="@color/status_text_color" />
+
+    <Button
+        android:id="@+id/btn_signin_createaccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="@color/status_text_color"
+        android:background="@drawable/btn_background"
+        android:text="Create an account"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You will not be creating a Facebook profile"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FORGOT PASSWORD?"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textSize="18sp"
+        android:textColor="#000000"/>
+
+
+</LinearLayout>

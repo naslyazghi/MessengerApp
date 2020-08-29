@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "889935757601",
+    "firebase_url": "https://messengerapptrial.firebaseio.com",
+    "project_id": "messengerapptrial",
+    "storage_bucket": "messengerapptrial.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889935757601:android:428d4bcb9d98379675fe60",
+        "android_client_info": {
+          "package_name": "com.nlmessenger.messenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "889935757601-i2o682bnarrvqvoodtbjr8m5661pu4ts.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJeFIf53DQFNYsftbcqQaNNJbQJGj-lMs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "889935757601-i2o682bnarrvqvoodtbjr8m5661pu4ts.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
